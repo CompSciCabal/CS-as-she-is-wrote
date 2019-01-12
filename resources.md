@@ -18,3 +18,7 @@ https://www.computerhistory.org/timeline/software-languages/
 
 https://www.scottaaronson.com/blog/?p=524
 
+https://en.wikipedia.org/wiki/Timeline_of_computing_1950–1979
+
+https://en.wikipedia.org/wiki/History_of_computing
+
