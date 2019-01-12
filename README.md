@@ -118,8 +118,6 @@ Subjects for which we ought to have lists of papers along with accrued accoutrem
 ### Programming language pragmatics
 *Taxonomy of programming languages, their strength and weaknesses. Various programming paradigms, such as object-oriented programming.*
 
-### Programming language theory
-
 ### Formal semantics
 *rigorous mathematical study of the meaning of programs.*
 
