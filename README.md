@@ -1,11 +1,8 @@
 # CS As She Is Wrote
 
-Subjects for which we ought to have lists of papers along with accrued accoutrements. Taken from https://en.wikipedia.org/wiki/Outline_of_computer_science
+Subjects for which we ought to have lists of papers along with accrued accoutrements. Adapted from https://en.wikipedia.org/wiki/Outline_of_computer_science
 
 ## Mathematical foundations
-
-### Coding theory
-*Useful in networking and other areas where computers communicate with each other.*
 
 ### Game theory
 *Useful in artificial intelligence and cybernetics.*
@@ -30,8 +27,6 @@ Subjects for which we ought to have lists of papers along with accrued accoutrem
 
 
 ## Artificial intelligence
-
-### Artificial intelligence
 *The implementation and study of systems that exhibit an autonomous intelligence or behavior of their own.*
 
 ### Automated reasoning
@@ -66,17 +61,13 @@ Subjects for which we ought to have lists of papers along with accrued accoutrem
 
 
 ## Computer architecture
-
-### Computer architecture
 *The design, organization, optimization and verification of a computer system, mostly about CPUs and Memory subsystem (and the bus connecting them).*
 
-### Operating systems
+## Operating systems
 *Systems for managing computer programs and providing the basis of a usable system.*
 
 
 ## Computer graphics
-
-### Computer graphics
 *Algorithms both for generating visual images synthetically, and for integrating or altering visual and spatial information sampled from the real world.*
 
 ### Image processing
@@ -150,12 +141,10 @@ Subjects for which we ought to have lists of papers along with accrued accoutrem
 
 
 ## Software engineering
+*The principles and practice of designing, developing, and testing programs, as well as proper engineering practices.*
 
 ### Formal methods
 *Mathematical approaches for describing and reasoning about software design.*
-
-### Software engineering
-*The principles and practice of designing, developing, and testing programs, as well as proper engineering practices.*
 
 ### Algorithm design
 *Using ideas from algorithm theory to creatively design solutions to real tasks.*
