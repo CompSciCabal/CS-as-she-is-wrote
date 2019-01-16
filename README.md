@@ -24,6 +24,8 @@ Subjects for which we ought to have lists of papers along with accrued accoutrem
 
 ### Data structures
 *The organization and manipulation of data.*
+- [Ideal Hash Trees](http://lampwww.epfl.ch/papers/idealhashtrees.pdf)
+
 
 
 ## Artificial intelligence
@@ -105,16 +107,30 @@ Subjects for which we ought to have lists of papers along with accrued accoutrem
 
 ### Compiler theory
 *Theory of compiler design, based on Automata theory.*
+- [A gentle introduction to multi-stage programming](http://www.cs.rice.edu/~taha/publications/journal/dspg04a.pdf)
+- [DSL Implementation in MetaOCaml and Template Haskell and C++](http://doc.effective-modeling.org/p/publications/journal/dspg04b.pdf)
+- [The Design and Implementation of BER MetaOCaml](http://okmij.org/ftp/meta-programming/ber-design.pdf)
+- [Go Meta!](https://www.dropbox.com/s/6m5x71kk0ak7f6f/rompf-snapl15.pdf?dl=0)
 
 ### Programming language pragmatics
 *Taxonomy of programming languages, their strength and weaknesses. Various programming paradigms, such as object-oriented programming.*
+- [Open, extensible object models](http://piumarta.com/software/cola/objmodel2.pdf)
+- [Strachey: Fundamental Concepts in Programming Languages](http://www.itu.dk/courses/BPRD/E2009/fundamental-1967.pdf)
+- [Wilson: Uniprocessor GC Techniques](http://www.cs.rice.edu/~javaplt/311/Readings/wilson92uniprocessor.pdf)
+- [Bacon et al: A Unified Theory of Garbage Collection](http://researcher.watson.ibm.com/researcher/files/us-bacon/Bacon04Unified.pdf)
+- [How to make ad-hoc polymorphism less ad-hoc](http://people.csail.mit.edu/dnj/teaching/6898/papers/wadler88.pdf) (and accompanying [notes](http://okmij.org/ftp/Computation/typeclass.html))
 
 ### Formal semantics
 *rigorous mathematical study of the meaning of programs.*
+- [Propositions as Types](http://homepages.inf.ed.ac.uk/wadler/topics/history.html#propositions-as-types)
+- [Theorems for Free](http://ttic.uchicago.edu/~dreyer/course/papers/wadler.pdf)
+
 
 ### Type theory
 *Formal analysis of the types of data, and the use of these types to understand properties of programs — especially program safety.*
-
+- [Cardelli & Wegner: On Understanding Types, Data Abstraction, and Polymorphism](http://phobos.ramapo.edu/~ldant/oop/cardelli_wegner.pdf)
+- [Cardelli: Basic Polymorphic Typechecking](http://lucacardelli.name/Papers/BasicTypechecking.pdf)
+- [Milner, A Theory of Type Polymorphism in Programming](http://web.cs.wpi.edu/~cs4536/c12/milner-type-poly.pdf)
 
 ## Scientific computing
 
