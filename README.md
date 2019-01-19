@@ -120,7 +120,7 @@ Subjects for which we ought to have lists of papers along with accrued accoutrem
 - [The Design and Implementation of BER MetaOCaml](http://okmij.org/ftp/meta-programming/ber-design.pdf)
 - [Go Meta!](https://www.dropbox.com/s/6m5x71kk0ak7f6f/rompf-snapl15.pdf?dl=0)
 - [The Mystery of the Tower Revealed](https://cdn.rawgit.com/CompSciCabal/reading-material/af23849e/pdfs/secrets-of-the-tower.pdf)
--
+- [Boehm Thesis](https://www.itu.dk/~sestoft/boehmthesis/boehm.pdf) (and in the [original French](https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/132662/eth-32719-02.pdf))
 
 ### Programming language pragmatics
 *Taxonomy of programming languages, their strength and weaknesses. Various programming paradigms, such as object-oriented programming.*
