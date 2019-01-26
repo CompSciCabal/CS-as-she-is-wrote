@@ -1,0 +1,106 @@
+{
+    "$schema":"http://json-schema.org/draft-07/schema#",
+    "definitions": {
+        "resource": {
+            "title":"Resource",
+            "description":"An individual article, book, book chapter, blog post, etc.",
+            "type":"object",
+            "properties": {
+                "title": {
+                    "description":"Title of the resource.",
+                    "type":"string"
+                },
+                "identifier": {
+                    "description":"A unique identifier of some sort (DOI, ISBN, LCCN, etc.) for the resource.",
+                    "type":"string"
+                },
+                "uri": {
+                    "description":"A URI at which the resource can be obtained.",
+                    "type":"string"
+                },
+                "publicationDate": {
+                    "description":"Date of publication of the resource.",
+                    "type":"string"
+                },
+                "authors": {
+                    "description":"A list of authors for the resource.",
+                    "type":"array",
+                    "items": {
+                        "$ref":"#/definitions/author"
+                    }
+                },
+                "topics": {
+                    "description":"The topic headings that apply to this resource.",
+                    "type":"array",
+                    "items": {
+                        "$ref":"#/definitions/topic"
+                    }
+                },
+                "related": {
+                    "title":"Related Resources",
+                    "description":"A collection of relationships between this and other resources.",
+                    "type":"array",
+                    "items": {
+                        "$ref":"#/definitions/relationship"
+                    }
+                },
+                "notes": {
+                    "title":"Notes",
+                    "description":"A field to collect notes about the resource.",
+                    "type":"string"
+                }
+            },
+            "required": ["title", "identifier", "uri", "publicationDate", "authors", "topics", "related", "notes"]
+        },
+        "author": {
+            "title":"Author",
+            "description":"The individual or organization responsible for the intellectual content of a resource.",
+            "type":"object",
+            "properties": {
+                "name": {
+                    "description":"The name of the author, in first-last form.",
+                    "type":"string"
+                },
+                "uri": {
+                    "description":"A URI identifying the author, such as a dblp page.",
+                    "type":"string"
+                }
+            },
+            "required": ["name", "uri"]
+        },
+        "topic": {
+            "title":"Topic",
+            "description":"A topic heading (and optional subheading).",
+            "type":"object",
+            "properties": {
+                "heading": {
+                    "type":"string"
+                },
+                "subheading": {
+                    "type":"string"
+                }
+            },
+            "required": ["heading", "subheading"]
+        },
+        "relationship": {
+            "description":"A relationship between this and other resources.",
+            "type":"object",
+            "properties": {
+                "relation": {
+                    "description":"The type of relationship (e.g.'derives from', 'introduces', etc.).",
+                    "type":"string"
+                },
+                "object": {
+                    "description":"The identifier or URI of the object resource of the relationship.",
+                    "type":"string"
+                }
+            },
+            "required": ["relation", "object"]
+        }
+    },
+    "type":"object",
+    "properties": {
+        "work": { "$ref":"#/definitions/resource" }
+    },
+    "required": ["work"]
+}

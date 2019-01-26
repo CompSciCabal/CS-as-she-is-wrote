@@ -1,0 +1,27 @@
+{
+	"work": {
+		"title": "Ideal Hash Trees",
+		"identifier": "703419302 (OCLC)",
+		"uri": "https://infoscience.epfl.ch/record/64398",
+		"publicationDate": "2001",
+		"authors": [
+			{
+				"name": "Phil Bagwell",
+				"uri": "https://dblp.uni-trier.de/pers/hd/b/Bagwell:Phil"
+			}
+		],
+		"topics": [
+			{
+				"heading": "Information Systems",
+				"subheading": "Data Structures"
+			}
+		],
+		"related": [
+			{
+				"relation": "preceded by",
+				"object": "https://infoscience.epfl.ch/record/64394"
+			}
+		],
+		"notes": "Hash Trees with nearly ideal characteristics are described. These Hash Trees require no initial root hash table yet are faster and use significantly less space than chained or double hash trees. Insert, search and delete times are small and constant, independent of key set size, operations are O(1). Small worst-case times for insert, search and removal operations can be guaranteed and misses cost less than successful searches."
+	}
+}
